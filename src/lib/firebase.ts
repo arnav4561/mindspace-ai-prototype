@@ -6,7 +6,7 @@ import { getFirestore } from 'firebase/firestore';
 const firebaseConfig = {
   projectId: process.env.NEXT_PUBLIC_FIREBASE_PROJECT_ID || "gencrewprototype",
   authDomain: process.env.NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN || "gencrewprototype.firebaseapp.com",
-  apiKey: process.env.NEXT_PUBLIC_FIREBASE_API_KEY || "REDACTED_API_KEY",
+  apiKey: process.env.NEXT_PUBLIC_FIREBASE_API_KEY || "",
   storageBucket: process.env.NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET || "gencrewprototype.firebasestorage.app",
   messagingSenderId: process.env.NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID || "235635541612",
   appId: process.env.NEXT_PUBLIC_FIREBASE_APP_ID || "1:235635541612:web:6a4e15d7d240fabb677a49",
